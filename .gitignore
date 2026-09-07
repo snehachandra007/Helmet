@@ -1,0 +1,25 @@
+# virtualenvs
+saferide-env/
+venv/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# trained weights — too large for git, also private
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# runtime artifacts
+logs/events.csv
+logs/snapshots/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
